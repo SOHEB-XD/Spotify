@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="shortcut icon"
+        href="https://storage.googleapis.com/pr-newsroom-wp/1/2023/05/Spotify_Primary_Logo_RGB_Black.png"
+        type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Cormorant:ital,wght@0,300..700;1,300..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Lilita+One&family=Manrope:wght@200..800&family=Mozilla+Text:wght@200..700&family=Noto+Serif+Telugu:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d3721bd75f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="left">
+            <div class="home">
+
+                <div class="logo">
+                    <i class="fa-brands fa-spotify logo"></i> Spotify
+                </div>
+
+                <div class="HomeIcon">
+                    <i class="fa-solid fa-house"></i> Home
+                </div>
+
+                <div class="SearchIcon">
+                    <i class="fa-solid fa-magnifying-glass"></i> Search
+
+                </div>
+
+
+            </div>
+            <div class="library">
+                <div class="library-heading">
+                    <img src="library.svg" alt="library">
+                    <h2>Your Library</h2>
+                </div>
+
+                <div class="library-list">
+                    <ul>
+
+                    </ul>
+                </div>
+
+                <div class="library-footer">
+                    <a href="https://www.spotify.com/in-en/premium/#ref=spotifycom_footer_premium_individual">
+                        <span>Premium Individual</span>
+                    </a>
+                    <a href="https://www.spotify.com/in-en/duo/#ref=spotifycom_footer_premium_duo">
+                        <span>Premium Duo</span>
+                    </a>
+                    <a href="https://www.spotify.com/in-en/family/#ref=spotifycom_footer_premium_family">
+                        <span>Premium Family</span>
+                    </a>
+                    <a href="https://www.spotify.com/in-en/student/#ref=spotifycom_footer_premium_student">
+                        <span>Premium Student</span>
+                    </a>
+                    <a href="https://www.spotify.com/in-en/free/#ref=spotifycom_footer_free">
+                        <span>Spotify Free</span>
+                    </a>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="header">
+                <nav>
+                    <div class="navbtn">
+                        <i class="fa-solid fa-angle-left"></i>
+                        <i class="fa-solid fa-angle-right"></i>
+                    </div>
+
+                    <div class="sign-login">
+                        <button id="signupBtn">Sign Up</button>
+                        <button id="loginBtn">log in</button>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="songs-container">
+                <div class="songs-header">
+                    <p>Spotify Playlists</p>
+                    <a href="">Show all</a>
+                </div>
+
+                <div class="card-container">
+
+                    <div class="card">
+                        <img src="images/kabhi-kabhie_1399039160.jpg" alt="">
+                        <h2>Happy Hits!</h2>
+                        <p>Hit to boost your mood and fill you with happiness!</p>
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+
+
+
+
+                </div>
+
+                <div class="playbar">
+
+                    <div class="songsInfo">
+
+                    </div>
+
+                    <div class="songsBtns">
+                        <img src="previous.svg" alt="" id="previous">
+                        <img src="pause.svg" alt="" id="pause">
+                        <img src="next.svg" alt="" id="next">
+                    </div>
+
+                    <div class="songsTimer">
+
+                    </div>
+
+                    <div class="seekbar">
+                        <div class="circle"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
